@@ -1,0 +1,28 @@
+langchain
+torch
+accelerate
+sentence_transformers
+streamlit_chat
+streamlit
+faiss-cpu
+tiktoken
+ctransformers
+huggingface-hub
+pypdf
+python-dotenv
+replicate
+docx2txt
+flask
+chromadb
+InstructorEmbedding
+unstructured
+docx2txt
+
+# Utilities
+urllib3==1.26.6
+accelerate
+bitsandbytes ; sys_platform != 'win32'
+bitsandbytes-windows ; sys_platform == 'win32'
+click
+flask
+requests
