@@ -160,7 +160,7 @@ def run_ingest_route():
     except Exception as e:
         return f"Error occurred: {str(e)}", 500
 
-
+# 10.0.0.2
 @app.route("/api/prompt_route", methods=["GET", "POST"])
 def prompt_route():
     global QA
